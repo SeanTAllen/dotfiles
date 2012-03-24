@@ -18,3 +18,4 @@
 	co    = checkout
         out   = outgoing
         pom   = push origin master
+	wth   = what-the-hell-just-happened
