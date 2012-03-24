@@ -16,4 +16,5 @@
 	ci = commit
 	co = checkout
 	amend = commit --amend
+        out = outgoing
         pom = push origin master
