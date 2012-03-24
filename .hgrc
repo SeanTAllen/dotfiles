@@ -1,1 +1,19 @@
+[ui]
+verbose  = true
+merge    = emacs
+
+[merge-tools]
+emacs.args = -q --eval "(ediff-merge-with-ancestor \"$local\" \"$other\" \"$base\" nil \"$output\")"
+
+[alias]
+nudge = push --rev .
+
 [extensions]
+crecord    = ~/.hgext/crecord/crecord
+graphlog   =
+hgshelve   = ~/.hgext/hgshelve/hgshelve.py
+histedit   = ~/.hgext/histedit/hg_histedit.py
+mq         =
+rebase     =
+rebaseif   = ~/.hgext/ml-hgext/rebaseif.py
+transplant =
