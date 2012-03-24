@@ -16,6 +16,7 @@
         amend = commit --amend
 	ci    = commit
 	co    = checkout
+	div   = divergence
         out   = outgoing
         pom   = push origin master
 	wth   = what-the-hell-just-happened
