@@ -1,0 +1,10 @@
+{
+	"auto_upgrade_last_run": 1332562258,
+	"installed_packages":
+	[
+		"Git",
+		"Package Control",
+		"SCSS",
+		"sublime-jslint"
+	]
+}
