@@ -1,0 +1,7 @@
+*~
+.magic
+*.elc
+tramp
+*.orig
+ *.rej
++\#*#
