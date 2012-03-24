@@ -13,8 +13,8 @@
 	pretty=format:* %Cred%h%Creset - %s (%Cgreen%cr%Creset) <%an>
 
 [alias]
-	ci = commit
-	co = checkout
-	amend = commit --amend
-        out = outgoing
-        pom = push origin master
+        amend = commit --amend
+	ci    = commit
+	co    = checkout
+        out   = outgoing
+        pom   = push origin master
