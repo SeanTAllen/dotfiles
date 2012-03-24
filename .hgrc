@@ -1,2 +1,2 @@
 [extensions]
-prompt = ~/.hg/hg-prompt/prompt.py
+prompt = ~/.hgext/hg-prompt/prompt.py
