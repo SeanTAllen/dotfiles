@@ -1,0 +1,19 @@
+[user]
+	name = Sean T Allen
+	email = sean@monkeysnatchbanana.com
+
+[core]
+	excludesfile = /Users/sean/.gitignore
+
+[color]
+	ui = auto
+	diff = auto
+
+[format]
+	pretty=format:* %Cred%h%Creset - %s (%Cgreen%cr%Creset) <%an>
+
+[alias]
+	ci = commit
+	co = checkout
+	amend = commit --amend
+        pom = push origin master
