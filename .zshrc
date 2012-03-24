@@ -1,6 +1,6 @@
 ZSH=$HOME/.zsh
 
-fpath=("$ZSH/functions/" $fpath)
+fpath=("$ZSH/functions/" "/opt/local/share/zsh/4.3.15/functions" $fpath)
 autoload -U compinit
 compinit
 
