@@ -5,7 +5,7 @@ autoload -Uz vcs_info
 zstyle ':vcs_info:*' enable git hg
 zstyle ':vcs_info:(hg*|git*):*' get-revision true
 zstyle ':vcs_info:(hg*|git*):*' check-for-changes true
-zstyle ':vcs_info:(hg*|git*):*' stagedstr "!"
+zstyle ':vcs_info:(hg*|git*):*' stagedstr "✗"
 zstyle ':vcs_info:(hg*|git*):*' unstagedstr "?"
 zstyle ':vcs_info:git*' formats "%{$reset_color%}%s:(%{$fg[yellow]%}%b%{$reset_color%}) %{$fg[yellow]%}%c %u%{$reset_color%} " 
 
