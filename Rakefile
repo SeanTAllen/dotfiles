@@ -5,6 +5,7 @@ task :install do
 	  '.hgext', 
 	  '.keymando',
 	  '.sublimetext2',
+          '.vim',
 	  '.zsh',
   ].each do |dotfile|
   	linkdir dotfile, dotfile 
