@@ -25,13 +25,13 @@ end
 task :default => [ :install ] do end
 
 def linkdir(dotfile, location)
-  link "#{dotfile}/", location
+  create_link "#{dotfile}/", location
 end
 
 def linkfile(dotfile, location)
-  link dotfile, location
+  create_link dotfile, location
 end
 
-def link(dotfile, location)
-  system "ln -Ffsv #{Dir.pwd}/#{dotfile} ~/#{location}"
+def create_link(dotfile, location)
+    system "ln -Ffsv #{Dir.pwd}/#{dotfile} ~/#{location}"
 end
