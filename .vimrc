@@ -15,3 +15,6 @@ set guioptions-=T
 
 "set default tab size to 2"
 set ts=2
+
+"set font when running in gui like macvim/gvim"
+set guifont=Inconsolata:h14
