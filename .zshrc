@@ -26,6 +26,8 @@ export LC_CTYPE=$LANG
 
 alias ebills="vi ~/Dropbox/Notes/bills.txt"
 
+export EDITOR="vi"
+
 export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
 export HOME_BIN2=$HOME/bin2
 export LEIN_BIN=$HOME/.lein/bin
