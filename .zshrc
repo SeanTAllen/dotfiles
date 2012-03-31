@@ -26,7 +26,7 @@ export LC_CTYPE=$LANG
 
 alias ebills="vi ~/Dropbox/Notes/bills.txt"
 
-export PATH=/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
+export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
 export HOME_BIN2=$HOME/bin2
 export LEIN_BIN=$HOME/.lein/bin
 export RUBYGEMS_BIN=$HOME/.gem/ruby/1.8/bin
