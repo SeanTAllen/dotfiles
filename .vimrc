@@ -8,3 +8,6 @@ endif
 
 "turn off toolbar"
 set guioptions-=T
+
+"set default tab size to 2"
+set ts=2
