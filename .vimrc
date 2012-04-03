@@ -15,14 +15,13 @@ if has('gui_running')
   set guioptions-=T
   set guioptions-=L
   set guioptions-=r
+
+  "set font when running in gui like macvim/gvim"
+  set guifont=Inconsolata:h14
 endif
 
 "set default tab size to 2"
 set ts=2
 
-"set font when running in gui like macvim/gvim"
-set guifont=Inconsolata:h14
-
 ""
 let mapleader=','
-
