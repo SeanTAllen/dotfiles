@@ -16,11 +16,17 @@ if has('gui_running')
   set guioptions-=L
   set guioptions-=r
 
-  "set font when running in gui like macvim/gvim"
-  set guifont=Inconsolata:h14
+  if has('gui_macvim')
+    set guifont=Inconsolata:h14
+    
+    "start fullscreen"
+    set fu
+  endif
 
-  "start fullscreen"
-  set fu
+  if has('gui_gvim')
+    set guifont=Inconsolata\ Medium\ 12
+  endif
+
 endif
 
 "set default tab size to 2"
