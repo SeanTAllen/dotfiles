@@ -18,3 +18,7 @@ set ts=2
 
 "set font when running in gui like macvim/gvim"
 set guifont=Inconsolata:h14
+
+""
+let mapleader=','
+
