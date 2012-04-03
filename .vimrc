@@ -10,8 +10,12 @@ if has('gui_running') || has('mac')
   colorscheme solarized
 endif
 
-"turn off toolbar"
-set guioptions-=T
+if has('gui_running')
+  "turn off toolbari & scrollbar"
+  set guioptions-=T
+  set guioptions-=L
+  set guioptions-=r
+endif
 
 "set default tab size to 2"
 set ts=2
