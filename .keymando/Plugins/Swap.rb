@@ -17,10 +17,10 @@ class Swap < Plugin
   end
 
   def event_received(sequence)
-    return false if Application.current.nil?
+    return false if RunningApplication.current.nil?
 
     Swap.entries.each do |entry|
-      if for_application?(entry, Application.current.name) 
+      if for_application?(entry, RunningApplication.current.name) 
        if(Regexp.new(entry[:source]).match(sequence))
          send(sequence.gsub(entry[:source], entry[:target]))
          return true
