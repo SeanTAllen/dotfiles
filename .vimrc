@@ -23,7 +23,7 @@ if has('gui_running')
     set fu
   endif
 
-  if has('gui_gvim')
+  if has('gui_gtk')
     set guifont=Inconsolata\ Medium\ 12
   endif
 
