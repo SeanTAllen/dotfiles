@@ -7,7 +7,7 @@ syntax enable
 set t_Co=256
 if has('gui_running') || has('mac')
   set background=dark
-  colorscheme solarized
+  colorscheme solarized-darker
 endif
 
 if has('gui_running')
