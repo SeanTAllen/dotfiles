@@ -31,6 +31,8 @@ endif
 
 "set default tab size to 2"
 set ts=2
+set sw=2
+set expandtab
 
 ""
 let mapleader=','
