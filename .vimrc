@@ -58,3 +58,16 @@ if has('gui_running') || has('mac')
   colorscheme solarized-darker
 endif
 
+augroup vimrcEx
+  " Clear all autocmds in the group
+  autocmd!
+  " Jump to last cursor position unless it's invalid or in an event handler
+  autocmd BufReadPost *
+    \ if line("'\"") > 0 && line("'\"") <= line("$") |
+    \   exe "normal g`\"" |
+    \ endif
+
+  " Indent p tags
+  autocmd FileType html,eruby if g:html_indent_tags !~ '\\|p\>' | let g:html_indent_tags .= '\|p\|li\|dt\|dd' | endif
+augroup END
+
