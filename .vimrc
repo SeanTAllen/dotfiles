@@ -39,6 +39,10 @@ filetype plugin indent on
 "
 let mapleader=','
 
+" search options
+set incsearch
+set hlsearch
+
 " highlight current line
 set cursorline
 
