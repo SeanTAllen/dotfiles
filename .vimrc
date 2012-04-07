@@ -35,11 +35,14 @@ set sw=2
 set expandtab
 set autoindent
 
-"Enable file type detection.
-"Use the default filetype settings, so that mail gets 'tw' set to 72,
+"enable file type detection.
+"use the default filetype settings, so that mail gets 'tw' set to 72,
 "'cindent' is on in C files, etc.
-"Also load indent files, to automatically do language-dependent indenting.
+"also load indent files, to automatically do language-dependent indenting.
 filetype plugin indent on
 
-""
+"
 let mapleader=','
+
+"highlight current line
+set cursorline
