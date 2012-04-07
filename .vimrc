@@ -46,6 +46,11 @@ set hlsearch
 " highlight current line
 set cursorline
 
+" use emacs-style tab completion when selecting files, etc
+set wildmode=longest,list
+" make tab completion for files/buffers act like bash
+set wildmenu
+
 " colors
 set t_Co=256
 if has('gui_running') || has('mac')
