@@ -4,11 +4,6 @@ set nocompatible
 
 set encoding=utf-8
 syntax enable
-set t_Co=256
-if has('gui_running') || has('mac')
-  set background=dark
-  colorscheme solarized-darker
-endif
 
 if has('gui_running')
   " turn off toolbari & scrollbar
@@ -46,3 +41,11 @@ let mapleader=','
 
 " highlight current line
 set cursorline
+
+" colors
+set t_Co=256
+if has('gui_running') || has('mac')
+  set background=dark
+  colorscheme solarized-darker
+endif
+
