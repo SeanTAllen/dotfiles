@@ -2,6 +2,10 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
+" Load bundled plugins 
+call pathogen#infect()
+call pathogen#helptags()
+
 set encoding=utf-8
 syntax enable
 
