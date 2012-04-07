@@ -43,6 +43,10 @@ let mapleader=','
 set incsearch
 set hlsearch
 
+" line numbers on
+set number
+set numberwidth=3
+
 " highlight current line
 set cursorline
 
@@ -70,4 +74,5 @@ augroup vimrcEx
   " Indent p tags
   autocmd FileType html,eruby if g:html_indent_tags !~ '\\|p\>' | let g:html_indent_tags .= '\|p\|li\|dt\|dd' | endif
 augroup END
+
 
