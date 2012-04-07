@@ -40,6 +40,9 @@ set autoindent
 " also load indent files, to automatically do language-dependent indenting.
 filetype plugin indent on
 
+" Make backspace behave in a sane manner.
+set backspace=indent,eol,start
+
 "
 let mapleader=','
 
