@@ -66,6 +66,10 @@ if has('gui_running') || has('mac')
   colorscheme solarized-darker
 endif
 
+" disable backup files i don't use
+set nobackup
+set noswapfile
+
 augroup vimrcEx
   " Clear all autocmds in the group
   autocmd!
