@@ -55,9 +55,10 @@ set smartcase
 nnoremap / /\v
 vnoremap / /\v
 
-" line numbers on
-set number
+" by default make line numbers relative to the current position
+set relativenumber
 set numberwidth=3
+nn <silent> <leader>vn :call ToggleNumber()<CR>
 
 " highlight current line
 set cursorline
@@ -90,4 +91,11 @@ augroup vimrcEx
   autocmd FileType html,eruby if g:html_indent_tags !~ '\\|p\>' | let g:html_indent_tags .= '\|p\|li\|dt\|dd' | endif
 augroup END
 
-
+" toggle between showing absolute & relative and no line numbers
+fun! ToggleNumber() "{{{
+  if exists('+relativenumber')
+    :exec &nu==&rnu? "setl nu!" : "setl rnu!"
+  else
+    setl nu!
+  endif
+endf "}}}
