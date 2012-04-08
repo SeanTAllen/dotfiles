@@ -26,7 +26,7 @@ export LC_CTYPE=$LANG
 
 alias ebills="vi ~/Dropbox/Notes/bills.txt"
 
-export EDITOR="vi"
+export EDITOR="vim"
 
 export LEIN_BIN=$HOME/.lein/bin
 export RUBYGEMS_BIN=$HOME/.gem/ruby/1.8/bin
