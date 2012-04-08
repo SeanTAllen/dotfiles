@@ -24,8 +24,6 @@ setopt long_list_jobs
 export PAGER=less
 export LC_CTYPE=$LANG
 
-alias ebills="vi ~/Dropbox/Notes/bills.txt"
-
 export EDITOR="vim"
 
 export LEIN_BIN=$HOME/.lein/bin
