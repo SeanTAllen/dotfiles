@@ -92,10 +92,10 @@ augroup vimrcEx
 augroup END
 
 " toggle between showing absolute & relative and no line numbers
-fun! ToggleNumber() "{{{
+fun! ToggleNumber()
   if exists('+relativenumber')
     :exec &nu==&rnu? "setl nu!" : "setl rnu!"
   else
     setl nu!
   endif
-endf "}}}
+endf
