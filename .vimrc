@@ -51,6 +51,9 @@ set incsearch
 set hlsearch
 set ignorecase
 set smartcase
+" use perl/python style regexes for search
+nnoremap / /\v
+vnoremap / /\v
 
 " line numbers on
 set number
