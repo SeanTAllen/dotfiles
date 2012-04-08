@@ -49,6 +49,8 @@ let mapleader=','
 " search options
 set incsearch
 set hlsearch
+set ignorecase
+set smartcase
 
 " line numbers on
 set number
