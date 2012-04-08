@@ -13,10 +13,10 @@
 	pretty=format:* %Cred%h%Creset - %s (%Cgreen%cr%Creset) <%an>
 
 [alias]
-        amend = commit --amend
+  amend = commit --amend
 	ci    = commit
 	co    = checkout
 	div   = divergence
-        out   = outgoing
-        pom   = push origin master
+  out   = outgoing
+  pom   = push origin master
 	wth   = what-the-hell-just-happened
