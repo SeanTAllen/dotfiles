@@ -28,7 +28,6 @@ alias ebills="vi ~/Dropbox/Notes/bills.txt"
 
 export EDITOR="vi"
 
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export LEIN_BIN=$HOME/.lein/bin
 export RUBYGEMS_BIN=$HOME/.gem/ruby/1.8/bin
 export HASKELL_BIN=$HOME/Library/Haskell/bin
