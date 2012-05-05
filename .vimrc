@@ -2,6 +2,16 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
+" Force myself to learn real vim movement commands
+inoremap  <Up>     <NOP>
+inoremap  <Down>   <NOP>
+inoremap  <Left>   <NOP>
+inoremap  <Right>  <NOP>
+noremap   <Up>     <NOP>
+noremap   <Down>   <NOP>
+noremap   <Left>   <NOP>
+noremap   <Right>  <NOP>
+
 " Load bundled plugins 
 call pathogen#infect()
 call pathogen#helptags()
