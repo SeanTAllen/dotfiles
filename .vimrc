@@ -34,6 +34,11 @@ set sw=2
 set expandtab
 set autoindent
 
+" toggle paste mode (to paste properly indented text)
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
+
 " enable file type detection.
 " use the default filetype settings, so that mail gets 'tw' set to 72,
 " 'cindent' is on in C files, etc.
