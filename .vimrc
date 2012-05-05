@@ -59,7 +59,7 @@ set smartcase
 " use perl/python style regexes for search
 nnoremap / /\v
 vnoremap / /\v
-" pressing \<space> clears the search highlights
+" pressing <leader><space> clears the search highlights
 nmap <silent> <leader><space> :nohlsearch<CR>
 
 " by default make line numbers relative to the current position
