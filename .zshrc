@@ -1,6 +1,3 @@
-## machine specific - and not public
-source ~/.profile
-
 ZSH=$HOME/.zsh
 
 fpath=("$ZSH/functions/" $fpath)
@@ -25,4 +22,7 @@ export PAGER=less
 export LC_CTYPE=$LANG
 
 export EDITOR="vim"
+
+## machine specific settings
+source ~/.profile
 
