@@ -106,6 +106,9 @@ augroup vimrcEx
 
   " Indent p tags
   autocmd FileType html,eruby if g:html_indent_tags !~ '\\|p\>' | let g:html_indent_tags .= '\|p\|li\|dt\|dd' | endif
+
+  " Turns off auto commenting
+  autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 augroup END
 
 " toggle between showing absolute & relative and no line numbers
