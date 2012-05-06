@@ -71,6 +71,13 @@ nnoremap / /\v
 vnoremap / /\v
 " pressing <leader><space> clears the search highlights
 nmap <silent> <leader><space> :nohlsearch<CR>
+" Center the display line after searches.
+nnoremap n   nzz
+nnoremap N   Nzz
+nnoremap *   *zz
+nnoremap #   #zz
+nnoremap g*  g*zz
+nnoremap g#  g#zz
 
 " by default make line numbers relative to the current position
 set relativenumber
