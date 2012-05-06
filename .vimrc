@@ -86,6 +86,8 @@ nn <silent> <leader>vn :call ToggleNumber()<CR>
 
 " highlight current line
 set cursorline
+" keep current line vertically centered
+set scrolloff=999
 
 " use emacs-style tab completion when selecting files, etc
 set wildmode=longest,list
