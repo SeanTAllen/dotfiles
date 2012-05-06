@@ -26,9 +26,3 @@ export LC_CTYPE=$LANG
 
 export EDITOR="vim"
 
-export LEIN_BIN=$HOME/.lein/bin
-export RUBYGEMS_BIN=$HOME/.gem/ruby/1.8/bin
-export HASKELL_BIN=$HOME/Library/Haskell/bin
-export SCALA_BIN=/opt/scala/bin
-export RVM_BIN=$HOME/.rvm/bin
-export PATH=$HOME/bin:$LEIN_BIN:$RUBYGEMS_BIN:$HASKELL_BIN:$PATH:$SCALA_BIN:$RVM_BIN
