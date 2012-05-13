@@ -6,8 +6,11 @@
 	excludesfile = /Users/sean/.gitignore
 
 [color]
-	ui = auto
-	diff = auto
+	ui          = auto
+	diff        = auto
+  branch      = auto
+  interactive = auto
+  status      = auto
 
 [format]
 	pretty=format:* %Cred%h%Creset - %s (%Cgreen%cr%Creset) <%an>
