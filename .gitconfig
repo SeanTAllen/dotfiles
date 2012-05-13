@@ -25,3 +25,5 @@
   pom   = push origin master
   st    = status
   wth   = what-the-hell-just-happened
+  lol   = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola  = log --graph --decorate --pretty=oneline --abbrev-commit --all
