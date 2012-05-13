@@ -1,5 +1,5 @@
 [user]
-	name = Sean T Allen
+	name  = Sean T Allen
 	email = sean@monkeysnatchbanana.com
 
 [core]
@@ -13,7 +13,7 @@
   status      = auto
 
 [format]
-	pretty=format:* %Cred%h%Creset - %s (%Cgreen%cr%Creset) <%an>
+  pretty = format:* %Cred%h%Creset - %s (%Cgreen%cr%Creset) <%an>
 
 [alias]
   amend = commit --amend
