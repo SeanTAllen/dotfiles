@@ -2,6 +2,9 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
+" Don't use modelines from files
+set modelines=0
+
 " Force myself to learn real vim movement commands
 inoremap  <Up>     <NOP>
 inoremap  <Down>   <NOP>
