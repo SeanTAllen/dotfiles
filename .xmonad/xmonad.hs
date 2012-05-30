@@ -53,7 +53,7 @@ myKeys =
   ]
   ++
   [
-    ((myModMask, xK_KP_Insert),    spawn "google-chrome") 
+    ((myModMask, xK_KP_Insert),    spawn "chromium") 
   , ((myModMask, xK_KP_End),       spawn "start-sts")
   , ((myModMask, xK_KP_Down),      spawn "vmware")
   , ((myModMask, xK_KP_Page_Down), spawn "emacs")
@@ -114,7 +114,7 @@ myManageHook = composeAll
   , className =? "Eclipse" --> doShift "0_4" 
 
   -- Standard window/application placements
-  , appName =? "google-chrome" --> doShift "0_1"
+  , appName =? "chromium" --> doShift "0_1"
   , appName =? "vmware"        --> doShift "1_3"
   , appName =? "xchat"         --> doShift "1_1"
   , appName =? "thunderbird"   --> doShift "1_4"
