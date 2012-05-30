@@ -115,6 +115,7 @@ myManageHook = composeAll
 
   -- Eclipse
   , className =? "Eclipse" --> doShift "0_4" 
+  , title     =? "Eclipse" --> doShift "0_4" <+> doIgnore
 
   -- Standard window/application placements
   , appName =? "chromium"      --> doShift "0_1"
