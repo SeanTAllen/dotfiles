@@ -58,7 +58,7 @@ myKeys =
   , ((myModMask, xK_KP_Down),      spawn "vmware")
   , ((myModMask, xK_KP_Page_Down), spawn "emacs")
   , ((myModMask, xK_KP_Left),      spawn "xchat")
-  , ((myModMask, xK_KP_Begin),     spawn "empathy") 
+    -- xK_KP_Begin 
   , ((myModMask, xK_KP_Right),     spawn "firefox")
   , ((myModMask, xK_KP_Home),      spawn "eclipse")
     -- xK_KP_Up
@@ -93,12 +93,8 @@ myLogHook xmproc = dynamicLogWithPP $ xmobarPP {
 
 myManageHook = composeAll
   [ 
-   -- Empathy transient windows
-    title =? "Contact List"                --> doCenterFloat 
-  , title =? "Messaging and VoIP Accounts" --> doCenterFloat
-
    -- Firefox download window  
-  , className =? "Firefox" <&&> fmap (isInfixOf "Downloads") title --> doCenterFloat
+  className =? "Firefox" <&&> fmap (isInfixOf "Downloads") title --> doCenterFloat
 
    -- Spring Source
   , className =? "SpringSource Tool Suite"    <&&> 
