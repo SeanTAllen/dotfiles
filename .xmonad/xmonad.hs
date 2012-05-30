@@ -73,6 +73,9 @@ myKeysP =
 
    -- go to window prompt
   , ("M-S-g", windowPromptGoto defaultXPConfig { autoComplete = Just 500000 })
+
+   -- lock screen
+  , ("C-M1-l", spawn "exe=`xscreensaver-command -lock` && eval \"exec $exe\"")
   ]
 
 myLayoutHook = smartBorders (layoutHook gnomeConfig)
