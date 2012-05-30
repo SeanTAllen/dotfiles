@@ -114,7 +114,7 @@ myManageHook = composeAll
   , className =? "Eclipse" --> doShift "0_4" 
 
   -- Standard window/application placements
-  , appName =? "chromium" --> doShift "0_1"
+  , appName =? "chromium"      --> doShift "0_1"
   , appName =? "vmware"        --> doShift "1_3"
   , appName =? "xchat"         --> doShift "1_1"
   , appName =? "thunderbird"   --> doShift "1_4"
