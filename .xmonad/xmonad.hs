@@ -53,12 +53,12 @@ myKeys =
   ]
   ++
   [
-    ((myModMask, xK_KP_Insert),    spawn "google-chrome") 
+    ((myModMask, xK_KP_Insert),    spawn "chromium") 
   , ((myModMask, xK_KP_End),       spawn "start-sts")
   , ((myModMask, xK_KP_Down),      spawn "vmware")
   , ((myModMask, xK_KP_Page_Down), spawn "emacs")
   , ((myModMask, xK_KP_Left),      spawn "xchat")
-  , ((myModMask, xK_KP_Begin),     spawn "empathy") 
+    -- xK_KP_Begin 
   , ((myModMask, xK_KP_Right),     spawn "firefox")
   , ((myModMask, xK_KP_Home),      spawn "eclipse")
     -- xK_KP_Up
@@ -73,6 +73,9 @@ myKeysP =
 
    -- go to window prompt
   , ("M-S-g", windowPromptGoto defaultXPConfig { autoComplete = Just 500000 })
+
+   -- lock screen
+  , ("C-M1-l", spawn "exe=`xscreensaver-command -lock` && eval \"exec $exe\"")
   ]
 
 myLayoutHook = smartBorders (layoutHook gnomeConfig)
@@ -90,12 +93,8 @@ myLogHook xmproc = dynamicLogWithPP $ xmobarPP {
 
 myManageHook = composeAll
   [ 
-   -- Empathy transient windows
-    title =? "Contact List"                --> doCenterFloat 
-  , title =? "Messaging and VoIP Accounts" --> doCenterFloat
-
    -- Firefox download window  
-  , className =? "Firefox" <&&> fmap (isInfixOf "Downloads") title --> doCenterFloat
+  className =? "Firefox" <&&> fmap (isInfixOf "Downloads") title --> doCenterFloat
 
    -- Spring Source
   , className =? "SpringSource Tool Suite"    <&&> 
@@ -112,9 +111,10 @@ myManageHook = composeAll
 
   -- Eclipse
   , className =? "Eclipse" --> doShift "0_4" 
+  , title     =? "Eclipse" --> doShift "0_4" <+> doIgnore
 
   -- Standard window/application placements
-  , appName =? "google-chrome" --> doShift "0_1"
+  , appName =? "chromium"      --> doShift "0_1"
   , appName =? "vmware"        --> doShift "1_3"
   , appName =? "xchat"         --> doShift "1_1"
   , appName =? "thunderbird"   --> doShift "1_4"
