@@ -127,7 +127,7 @@ myModMask = mod4Mask
 
 myStartupHook = setWMName "LG3D"
 
-myTerminal = "urxvt" 
+myTerminal = "urxvt -e tmux" 
 
 myWorkspaces = withScreens 2 ["1", "2", "3", "4", "5", "6", "7", "8", "9"] 
 
