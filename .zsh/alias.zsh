@@ -1,4 +1,5 @@
 alias vi=vim
+alias urxvt="urxvt -e tmux"
 
 alias gdi="git diff"
 alias gst="git status"
