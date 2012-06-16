@@ -81,6 +81,9 @@ nnoremap *   *zz
 nnoremap #   #zz
 nnoremap g*  g*zz
 nnoremap g#  g#zz
+" Make global replace the default for substitutions
+" To do a single substitution, add the 'g' option
+set gdefault
 
 " by default make line numbers relative to the current position
 set relativenumber
