@@ -61,7 +61,7 @@ filetype plugin indent on
 " Make backspace behave in a sane manner.
 set backspace=indent,eol,start
 
-"
+" switch leader
 let mapleader=','
 
 " search options
