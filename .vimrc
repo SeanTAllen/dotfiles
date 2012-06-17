@@ -126,7 +126,7 @@ smap     <silent>  <C-Up>    <C-G><C-Up><C-G>
 smap     <silent>  <C-Down>  <C-G><C-Down><C-G>
 
 " Ack
-remap <leader>a :Ack!<space>
+nnoremap <leader>a :Ack!<space>
 " Ack for the last search.
 nnoremap <silent> <leader>/ :execute "Ack! '" . substitute(substitute(substitute(@/, "\\\\<", "\\\\b", ""), "\\\\>", "\\\\b", ""), "\\\\v", "", "") . "'"<CR>
 
