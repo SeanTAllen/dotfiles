@@ -1,0 +1,9 @@
+--ignore-dir=gems
+--ignore-dir=public
+--ignore-dir=.jhw-cache
+--ignore-dir=vendor
+--type-set=haml=.haml
+--type-set=sass=.sass
+--type-set=scss=.scss
+--type-set=rb=.rb
+
