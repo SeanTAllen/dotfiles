@@ -23,10 +23,11 @@ set encoding=utf-8
 syntax enable
 
 if has('gui_running')
-  " turn off toolbari & scrollbar
+  " turn off toolbar & scrollbar & menubar
   set guioptions-=T
   set guioptions-=L
   set guioptions-=r
+  set guioptions-=m
 
   if has('gui_macvim')
     set guifont=Inconsolata:h14
