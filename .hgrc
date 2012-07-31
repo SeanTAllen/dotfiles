@@ -9,6 +9,7 @@ emacs.args = -q --eval "(ediff-merge-with-ancestor \"$local\" \"$other\" \"$base
 nudge = push --rev .
 
 [extensions]
+color      =
 crecord    = ~/.hgext/crecord/crecord
 graphlog   =
 hgshelve   = ~/.hgext/hgshelve/hgshelve.py
