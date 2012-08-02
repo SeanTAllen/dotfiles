@@ -2,6 +2,7 @@
 --ignore-dir=public
 --ignore-dir=.jhw-cache
 --ignore-dir=vendor
+--ignore-dir=target
 --type-set=haml=.haml
 --type-set=sass=.sass
 --type-set=scss=.scss
