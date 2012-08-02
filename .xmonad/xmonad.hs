@@ -96,22 +96,13 @@ myManageHook = composeAll
    -- Firefox download window  
   className =? "Firefox" <&&> fmap (isInfixOf "Downloads") title --> doCenterFloat
 
-   -- Spring Source
-  , className =? "SpringSource Tool Suite"    <&&> 
-    fmap (isPrefixOf "Spring - ") title             --> doShift "0_2"
-  , title =? "SpringSource Tool Suite"              --> doShift "0_2" <+> doIgnore
-  , title =? "STS"                                  --> doShift "0_2" <+> doIgnore  
---  , className =? "SpringSource Tool Suite"    <&&> 
---    title =? "PasswordRequired"                     --> doShift "0_2" <+> doFloat   
-  , className =? "SpringSource Tool Suite"    <&&> 
-    (not . ("   " `isPrefixOf`)) `fmap` title <&&>
-    (not . ("Spring - " `isPrefixOf`)) `fmap` title --> doShift "0_2" <+> doCenterFloat
-  , className =? "SpringSource Tool Suite"    <&&> 
-    ("   " `isPrefixOf`) `fmap` title               --> doShift "1_2" <+> doSink
-
   -- Eclipse
-  , className =? "Eclipse" --> doShift "0_4" 
-  , title     =? "Eclipse" --> doShift "0_4" <+> doIgnore
+  , className =? "Eclipse" <&&>
+    (not . ("   " `isPrefixOf`)) `fmap` title <&&>
+    (not . ("Eclipse" `isPrefixOf`)) `fmap` title --> doShift "0_2" 
+  , title     =? "Eclipse"            --> doShift "0_2" <+> doIgnore
+  , className =? "Eclipse" <&&>
+    ("   " `isPrefixOf`) `fmap` title --> doShift "1_2" <+> doSink
 
   -- Standard window/application placements
   , appName =? "chromium"      --> doShift "0_1"
