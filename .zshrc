@@ -23,6 +23,9 @@ export LC_CTYPE=$LANG
 
 export EDITOR="vim"
 
+## less
+export LESS="-eirMX"
+
 ## machine specific settings
 source ~/.profile
 
