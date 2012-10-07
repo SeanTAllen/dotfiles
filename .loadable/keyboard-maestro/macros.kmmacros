@@ -42,7 +42,7 @@
 					</dict>
 				</array>
 				<key>IsActive</key>
-				<true/>
+				<false/>
 				<key>Triggers</key>
 				<array>
 					<dict>
