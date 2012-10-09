@@ -1295,5 +1295,175 @@
 		<key>UID</key>
 		<string>88EA69A8-7E15-4777-A0A8-74353459E93B</string>
 	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>KeyCode</key>
+						<integer>48</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>4096</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>Tab: Next</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>124</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>768</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>27AA1816-F169-4934-A5AE-67B2A810CE87</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Google Chrome</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.google.Chrome</string>
+					<key>Creator</key>
+					<integer>1919511898</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>Google Chrome.app</string>
+					<key>NewFile</key>
+					<string>/Applications/Google Chrome.app</string>
+				</dict>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.google.Chrome.canary</string>
+					<key>Creator</key>
+					<integer>1349087337</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>Google Chrome Canary.app</string>
+					<key>NewFile</key>
+					<string>/Applications/Google Chrome Canary.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>06066103-EA88-4CA6-8328-823B35516935</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>KeyCode</key>
+						<integer>48</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>4608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>Tab: Previous</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>768</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>89CA1F7F-FEFB-4AAD-9FB7-418290EA2006</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Google Chrome</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.google.Chrome</string>
+					<key>Creator</key>
+					<integer>1919511898</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>Google Chrome.app</string>
+					<key>NewFile</key>
+					<string>/Applications/Google Chrome.app</string>
+				</dict>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.google.Chrome.canary</string>
+					<key>Creator</key>
+					<integer>1349087337</integer>
+					<key>FileType</key>
+					<integer>1095782476</integer>
+					<key>Name</key>
+					<string>Google Chrome Canary.app</string>
+					<key>NewFile</key>
+					<string>/Applications/Google Chrome Canary.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>06066103-EA88-4CA6-8328-823B35516935</string>
+	</dict>
 </array>
 </plist>
