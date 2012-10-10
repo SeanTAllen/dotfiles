@@ -488,6 +488,101 @@
 				<key>Actions</key>
 				<array>
 					<dict>
+						<key>Action</key>
+						<string>MoveAndClick</string>
+						<key>Button</key>
+						<integer>0</integer>
+						<key>ClickCount</key>
+						<integer>1</integer>
+						<key>DragHorizontalPosition</key>
+						<string>0</string>
+						<key>DragVerticalPosition</key>
+						<string>0</string>
+						<key>Fuzz</key>
+						<integer>0</integer>
+						<key>HorizontalPosition</key>
+						<integer>0</integer>
+						<key>HorizontalPositionExpression</key>
+						<string>0</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>MouseMoveAndClick</string>
+						<key>Modifiers</key>
+						<integer>4096</integer>
+						<key>MouseDrag</key>
+						<string>None</string>
+						<key>Relative</key>
+						<string>Mouse</string>
+						<key>RelativeCorner</key>
+						<string>TopLeft</string>
+						<key>RestoreMouseLocation</key>
+						<false/>
+						<key>VerticalPosition</key>
+						<integer>0</integer>
+						<key>VerticalPositionExpression</key>
+						<string>0</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>Option Click</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>ElementCookie</key>
+						<integer>3</integer>
+						<key>ElementDeviceUsage</key>
+						<integer>2</integer>
+						<key>ElementDeviceUsagePage</key>
+						<integer>1</integer>
+						<key>ElementName</key>
+						<string>Apple Internal Keyboard / Trackpad Button 1</string>
+						<key>ElementProductID</key>
+						<integer>566</integer>
+						<key>ElementShortName</key>
+						<string>B1</string>
+						<key>ElementUsage</key>
+						<integer>1</integer>
+						<key>ElementUsagePage</key>
+						<integer>9</integer>
+						<key>ElementValue</key>
+						<integer>1</integer>
+						<key>ElementVendorID</key>
+						<integer>1452</integer>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>MacroTriggerType</key>
+						<string>HID</string>
+						<key>Modifiers</key>
+						<integer>2048</integer>
+						<key>UseModifiers</key>
+						<true/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>699AC707-9726-4B66-987C-1439B057B785</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>UID</key>
+		<string>DA8512F7-F323-46B1-8319-752E0495CFD0</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
 						<key>IsActive</key>
 						<true/>
 						<key>IsDisclosed</key>
