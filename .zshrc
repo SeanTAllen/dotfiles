@@ -26,6 +26,9 @@ export EDITOR="vim"
 ## less
 export LESS="-eirMX"
 
+## findbugs
+export FINDBUGS_HOME=/usr/local/Cellar/findbugs/2.0.1/libexec
+
 ## machine specific settings
 source ~/.profile
 
