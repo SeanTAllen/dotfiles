@@ -30,7 +30,7 @@ if has('gui_running')
   set guioptions-=m
 
   if has('gui_macvim')
-    set guifont=Inconsolata:h14
+    set guifont=Anonymous\ Pro:h14
     
     " start fullscreen
     set fu
