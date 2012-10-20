@@ -12,6 +12,7 @@ nudge = push --rev .
 color      =
 crecord    = ~/.hgext/crecord/crecord
 graphlog   =
+hgflow     = ~/.hgext/hgflow/hgflow.py
 hgshelve   = ~/.hgext/hgshelve/hgshelve.py
 histedit   = ~/.hgext/histedit/hg_histedit.py
 mq         =
