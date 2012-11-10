@@ -10,6 +10,7 @@ nudge = push --rev .
 
 [extensions]
 color      =
+convert    =
 crecord    = ~/.hgext/crecord/crecord
 graphlog   =
 hgflow     = ~/.hgext/hgflow/hgflow.py
