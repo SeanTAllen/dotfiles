@@ -166,7 +166,7 @@
 					</dict>
 				</array>
 				<key>IsActive</key>
-				<true/>
+				<false/>
 				<key>Triggers</key>
 				<array>
 					<dict>
@@ -211,7 +211,7 @@
 					</dict>
 				</array>
 				<key>IsActive</key>
-				<true/>
+				<false/>
 				<key>Triggers</key>
 				<array>
 					<dict>
@@ -256,7 +256,7 @@
 					</dict>
 				</array>
 				<key>IsActive</key>
-				<true/>
+				<false/>
 				<key>Triggers</key>
 				<array>
 					<dict>
@@ -301,7 +301,7 @@
 					</dict>
 				</array>
 				<key>IsActive</key>
-				<true/>
+				<false/>
 				<key>Triggers</key>
 				<array>
 					<dict>
@@ -537,7 +537,7 @@
 					</dict>
 				</array>
 				<key>IsActive</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>Paste Selection Into Last Application</string>
 				<key>Triggers</key>
@@ -630,7 +630,7 @@
 					<key>Name</key>
 					<string>Google Chrome.app</string>
 					<key>NewFile</key>
-					<string>/Applications/Google Chrome.app</string>
+					<string>/usr/local/Cellar/google-chrome/stable-channel/Google Chrome.app</string>
 				</dict>
 				<dict>
 					<key>BundleIdentifier</key>
@@ -642,7 +642,7 @@
 					<key>Name</key>
 					<string>Google Chrome Canary.app</string>
 					<key>NewFile</key>
-					<string>/Applications/Google Chrome Canary.app</string>
+					<string>/usr/local/Cellar/google-chrome-canary/latest/Google Chrome Canary.app</string>
 				</dict>
 			</array>
 		</dict>
@@ -715,7 +715,7 @@
 					<key>Name</key>
 					<string>Google Chrome.app</string>
 					<key>NewFile</key>
-					<string>/Applications/Google Chrome.app</string>
+					<string>/usr/local/Cellar/google-chrome/stable-channel/Google Chrome.app</string>
 				</dict>
 				<dict>
 					<key>BundleIdentifier</key>
@@ -727,7 +727,7 @@
 					<key>Name</key>
 					<string>Google Chrome Canary.app</string>
 					<key>NewFile</key>
-					<string>/Applications/Google Chrome Canary.app</string>
+					<string>/usr/local/Cellar/google-chrome-canary/latest/Google Chrome Canary.app</string>
 				</dict>
 			</array>
 		</dict>
@@ -800,7 +800,7 @@
 					<key>Name</key>
 					<string>Google Chrome.app</string>
 					<key>NewFile</key>
-					<string>/Applications/Google Chrome.app</string>
+					<string>/usr/local/Cellar/google-chrome/stable-channel/Google Chrome.app</string>
 				</dict>
 				<dict>
 					<key>BundleIdentifier</key>
@@ -812,7 +812,7 @@
 					<key>Name</key>
 					<string>Google Chrome Canary.app</string>
 					<key>NewFile</key>
-					<string>/Applications/Google Chrome Canary.app</string>
+					<string>/usr/local/Cellar/google-chrome-canary/latest/Google Chrome Canary.app</string>
 				</dict>
 			</array>
 		</dict>
@@ -847,7 +847,7 @@
 						<key>Modifiers</key>
 						<integer>2048</integer>
 						<key>QuickMacroUID</key>
-						<string>31393F5A-FB52-4BF5-A1CA-4252B04A0523</string>
+						<string>26763B30-DAEF-4B51-808B-827B5F442BDA</string>
 					</dict>
 				</array>
 				<key>IsActive</key>
@@ -1093,7 +1093,7 @@
 							<key>Name</key>
 							<string>Google Chrome.app</string>
 							<key>NewFile</key>
-							<string>/Applications/Google Chrome.app</string>
+							<string>/usr/local/Cellar/google-chrome/stable-channel/Google Chrome.app</string>
 						</dict>
 						<key>IsActive</key>
 						<true/>
@@ -1361,7 +1361,7 @@
 					<key>Name</key>
 					<string>Google Chrome.app</string>
 					<key>NewFile</key>
-					<string>/Applications/Google Chrome.app</string>
+					<string>/usr/local/Cellar/google-chrome/stable-channel/Google Chrome.app</string>
 				</dict>
 				<dict>
 					<key>BundleIdentifier</key>
@@ -1373,7 +1373,7 @@
 					<key>Name</key>
 					<string>Google Chrome Canary.app</string>
 					<key>NewFile</key>
-					<string>/Applications/Google Chrome Canary.app</string>
+					<string>/usr/local/Cellar/google-chrome-canary/latest/Google Chrome Canary.app</string>
 				</dict>
 			</array>
 		</dict>
@@ -1446,7 +1446,7 @@
 					<key>Name</key>
 					<string>Google Chrome.app</string>
 					<key>NewFile</key>
-					<string>/Applications/Google Chrome.app</string>
+					<string>/usr/local/Cellar/google-chrome/stable-channel/Google Chrome.app</string>
 				</dict>
 				<dict>
 					<key>BundleIdentifier</key>
@@ -1458,7 +1458,7 @@
 					<key>Name</key>
 					<string>Google Chrome Canary.app</string>
 					<key>NewFile</key>
-					<string>/Applications/Google Chrome Canary.app</string>
+					<string>/usr/local/Cellar/google-chrome-canary/latest/Google Chrome Canary.app</string>
 				</dict>
 			</array>
 		</dict>
