@@ -109,7 +109,7 @@
 					</dict>
 				</array>
 				<key>IsActive</key>
-				<true/>
+				<false/>
 				<key>Triggers</key>
 				<array>
 					<dict>
@@ -360,7 +360,7 @@
 					</dict>
 				</array>
 				<key>IsActive</key>
-				<true/>
+				<false/>
 				<key>Triggers</key>
 				<array>
 					<dict>
@@ -641,8 +641,6 @@
 					<integer>1095782476</integer>
 					<key>Name</key>
 					<string>Google Chrome Canary.app</string>
-					<key>NewFile</key>
-					<string>/usr/local/Cellar/google-chrome-canary/latest/Google Chrome Canary.app</string>
 				</dict>
 			</array>
 		</dict>
@@ -726,8 +724,6 @@
 					<integer>1095782476</integer>
 					<key>Name</key>
 					<string>Google Chrome Canary.app</string>
-					<key>NewFile</key>
-					<string>/usr/local/Cellar/google-chrome-canary/latest/Google Chrome Canary.app</string>
 				</dict>
 			</array>
 		</dict>
@@ -811,8 +807,6 @@
 					<integer>1095782476</integer>
 					<key>Name</key>
 					<string>Google Chrome Canary.app</string>
-					<key>NewFile</key>
-					<string>/usr/local/Cellar/google-chrome-canary/latest/Google Chrome Canary.app</string>
 				</dict>
 			</array>
 		</dict>
@@ -1159,7 +1153,7 @@
 							<key>Name</key>
 							<string>iTerm 2.app</string>
 							<key>NewFile</key>
-							<string>/Applications/iTerm 2.app</string>
+							<string>/usr/local/Cellar/iterm2/1.0.0.20120203/iTerm.app</string>
 						</dict>
 						<key>IsActive</key>
 						<true/>
@@ -1372,8 +1366,6 @@
 					<integer>1095782476</integer>
 					<key>Name</key>
 					<string>Google Chrome Canary.app</string>
-					<key>NewFile</key>
-					<string>/usr/local/Cellar/google-chrome-canary/latest/Google Chrome Canary.app</string>
 				</dict>
 			</array>
 		</dict>
@@ -1457,8 +1449,6 @@
 					<integer>1095782476</integer>
 					<key>Name</key>
 					<string>Google Chrome Canary.app</string>
-					<key>NewFile</key>
-					<string>/usr/local/Cellar/google-chrome-canary/latest/Google Chrome Canary.app</string>
 				</dict>
 			</array>
 		</dict>
