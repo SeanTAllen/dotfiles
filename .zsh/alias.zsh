@@ -1,4 +1,5 @@
 alias fucking=sudo
+alias fu=sudo
 
 alias vi=vim
 alias urxvt="urxvt -e tmux"
