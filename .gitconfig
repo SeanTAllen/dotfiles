@@ -1,21 +1,21 @@
 [user]
-	name  = Sean T Allen
-	email = sean@monkeysnatchbanana.com
+  name  = Sean T Allen
+  email = sean@monkeysnatchbanana.com
 
 [core]
-	excludesfile = /Users/sean/.gitignore
+  excludesfile = /Users/sean/.gitignore
 
 [color]
-	ui          = auto
-	diff        = auto
+  ui          = auto
+  diff        = auto
 
 [format]
   pretty = format:* %Cred%h%Creset - %s (%Cgreen%cr%Creset) <%an>
 
 [alias]
   amend = commit --amend
-	ci    = commit
-	co    = checkout
+  ci    = commit
+  co    = checkout
   di    = diff
   div   = divergence
   out   = outgoing
