@@ -6,11 +6,11 @@ function source
   end
 end
 
-source local
 source alias
 source environment
 source path
 source prompt
+source local
 
 # turn off greeting
 set -gx fish_greeting
