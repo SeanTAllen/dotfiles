@@ -12,4 +12,6 @@ source environment
 source path
 source prompt
 
+# turn off greeting
+set -gx fish_greeting
 
