@@ -7,5 +7,7 @@
 --type-set=sass=.sass
 --type-set=scss=.scss
 --type-set=rb=.rb
+--type-set=json=.json
+--type-set=xml=.xml
 --color
 
