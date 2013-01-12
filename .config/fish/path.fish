@@ -1,5 +1,2 @@
-set -gx RUBYGEMS_BIN /usr/local/Cellar/ruby/1.9.3-p362/bin
-set -gx HOME_BIN $HOME/bin
-
-set -gx PATH $HOME_BIN $PATH /usr/local/sbin $RUBYGEMS_BIN
+set -gx PATH $HOME/bin /usr/local/bin /bin /usr/bin /usr/local/sbin /sbin /usr/sbin /usr/X11R6/bin
 
