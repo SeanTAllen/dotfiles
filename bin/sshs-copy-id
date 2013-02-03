@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ssh-copy-id $1.idc.theladders.com

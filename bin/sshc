@@ -1,0 +1,5 @@
+#!/bin/bash
+
+ARGS=($@)
+ssh $1.idc.theladders.com sudo -u ladders "${ARGS[@]:1}"
+

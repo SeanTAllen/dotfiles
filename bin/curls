@@ -1,0 +1,4 @@
+#!/bin/sh
+
+curl --socks5-hostname localhost:12002 $@
+
