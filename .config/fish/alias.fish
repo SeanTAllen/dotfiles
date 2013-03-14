@@ -10,3 +10,5 @@ alias ...   'cd ../..'
 alias ....  'cd ../../..'
 alias ..... 'cd ../../../..'
 
+alias work 'ssh sean@sallen'
+
