@@ -1,0 +1,797 @@
+{
+	"folder_history":
+	[
+		"/Users/sean/code/OS-X-Customizations",
+		"/Users/sean/code/redline-smalltalk.github.com",
+		"/Users/sean/code/redline-smalltalk",
+		"/Users/sean/code/tlc/theladders.github.com",
+		"/Users/sean/code/gary-oc"
+	],
+	"last_window_id": 19,
+	"settings":
+	{
+		"new_window_height": 852.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/sean/code/OS-X-Customizations/install-applications.sh",
+				"/Users/sean/Desktop/verizon porting center: 1 888 844 7095",
+				"/Users/sean/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+				"/Users/sean/code/tlc/solid-srp/src/main/java/com/theladders/solid/srp/ApplyController.java",
+				"/Users/sean/code/dotfiles/install.sh",
+				"/Users/sean/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"left",
+					"file",
+					"window"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 173.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 1440.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/sean/code/redline-smalltalk.github.com/contribute/visionaries.html",
+					"settings":
+					{
+						"buffer_size": 8150,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/sean/code/redline-smalltalk.github.com/humans.txt",
+					"settings":
+					{
+						"buffer_size": 4520,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/sean/code/redline-smalltalk.github.com/index.html",
+					"settings":
+					{
+						"buffer_size": 1857,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 347.0,
+				"selected_items":
+				[
+					[
+						"p in",
+						"Package Control: Install Package"
+					],
+					[
+						"syntax html",
+						"Set Syntax: HTML"
+					]
+				],
+				"width": 575.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/sean/code/redline-smalltalk.github.com/contribute/media.html",
+				"/Users/sean/code/redline-smalltalk.github.com/contribute/index.html",
+				"/Users/sean/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+				"/Users/sean/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/Users/sean/code/OS-X-Customizations/install-applications.sh",
+				"/Users/sean/Desktop/verizon porting center: 1 888 844 7095",
+				"/Users/sean/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+				"/Users/sean/code/tlc/solid-srp/src/main/java/com/theladders/solid/srp/ApplyController.java",
+				"/Users/sean/code/dotfiles/install.sh",
+				"/Users/sean/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"Daniel",
+					"hel",
+					"hell",
+					"chris ani",
+					"andre",
+					"John Connolly",
+					"left",
+					"file",
+					"window"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/Users/sean/code/redline-smalltalk.github.com"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/sean/code/redline-smalltalk.github.com/contribute/visionaries.html",
+							"settings":
+							{
+								"buffer_size": 8150,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3260,
+										3260
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.tmLanguage",
+									"tab_size": 6,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1007.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/sean/code/redline-smalltalk.github.com/humans.txt",
+							"settings":
+							{
+								"buffer_size": 4520,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3524,
+										3524
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 2402.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/sean/code/redline-smalltalk.github.com/index.html",
+							"settings":
+							{
+								"buffer_size": 1857,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0 4 1440 874 0 0 1440 878 ",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 173.0,
+			"status_bar_visible": true,
+			"window_id": 9,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/sean/code/OS-X-Customizations/install-applications.sh",
+					"settings":
+					{
+						"buffer_size": 1910,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "package control:\n\nimport urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')\n\nshell-turtlestein\nsurround\nadvancednewfile\ngit\ngitgutter\nsublimehg\n",
+					"file": "/Users/sean/sublime-installs",
+					"file_size": 493,
+					"file_write_time": 1363528299000000,
+					"settings":
+					{
+						"buffer_size": 481,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/sean/code/OS-X-Customizations/download-additional.sh",
+					"settings":
+					{
+						"buffer_size": 1545,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 307.0,
+				"selected_items":
+				[
+					[
+						"pin",
+						"Package Control: Install Package"
+					],
+					[
+						"prm",
+						"Package Control: Remove Package"
+					],
+					[
+						"pin ",
+						"Package Control: Install Package"
+					],
+					[
+						"p",
+						"Package Control: Remove Package"
+					],
+					[
+						"pa in",
+						"Package Control: Install Package"
+					],
+					[
+						"pack in",
+						"Package Control: Install Package"
+					],
+					[
+						"pack",
+						"Package Control: Discover Packages"
+					],
+					[
+						"git dc",
+						"Git: Diff Current File"
+					],
+					[
+						"git stu",
+						"Git: Status"
+					],
+					[
+						"git stat",
+						"Git: Status"
+					],
+					[
+						"git di",
+						"Git: Diff Current File"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"surr",
+						"Surround: surround selection"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"pac in",
+						"Package Control: Install Package"
+					],
+					[
+						"syntax html",
+						"Set Syntax: HTML"
+					]
+				],
+				"width": 449.0
+			},
+			"console":
+			{
+				"height": 125.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/sean/code/OS-X-Customizations/install.sh",
+				"/Users/sean/code/redline-smalltalk.github.com/contribute/media.html",
+				"/Users/sean/code/redline-smalltalk.github.com/contribute/index.html",
+				"/Users/sean/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+				"/Users/sean/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/Users/sean/code/OS-X-Customizations/install-applications.sh",
+				"/Users/sean/Desktop/verizon porting center: 1 888 844 7095",
+				"/Users/sean/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+				"/Users/sean/code/tlc/solid-srp/src/main/java/com/theladders/solid/srp/ApplyController.java",
+				"/Users/sean/code/dotfiles/install.sh",
+				"/Users/sean/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"Daniel",
+					"hel",
+					"hell",
+					"chris ani",
+					"andre",
+					"John Connolly",
+					"left",
+					"file",
+					"window"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/Users/sean/code/OS-X-Customizations"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/sean/code/OS-X-Customizations/install-applications.sh",
+							"settings":
+							{
+								"buffer_size": 1910,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1203,
+										1203
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 420.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/sean/sublime-installs",
+							"settings":
+							{
+								"buffer_size": 481,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										476,
+										476
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 2,
+							"file": "/Users/sean/code/OS-X-Customizations/download-additional.sh",
+							"settings":
+							{
+								"buffer_size": 1545,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										861,
+										861
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 31.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 100.0
+			},
+			"output.git":
+			{
+				"height": 100.0
+			},
+			"position": "0 4 1440 874 0 0 1440 878 ",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"install",
+						"install-applications.sh"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 173.0,
+			"status_bar_visible": true,
+			"window_id": 11,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

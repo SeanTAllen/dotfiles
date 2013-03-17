@@ -1,0 +1,14 @@
+{
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"fish-shell",
+		"Git",
+		"GitGutter",
+		"Package Control",
+		"Shell Turtlestein",
+		"SublimeHg",
+		"Surround",
+		"Surround Code with Snippets"
+	]
+}
