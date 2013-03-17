@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"2pdf",
 		"AdvancedNewFile",
 		"fish-shell",
 		"Git",
