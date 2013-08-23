@@ -15,6 +15,7 @@
 [alias]
   amend = commit --amend
   ci    = commit
+  ci-snap = commit -a -m 'Back to snapshot.'
   co    = checkout
   di    = diff
   div   = divergence
