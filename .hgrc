@@ -1,9 +1,10 @@
 [ui]
-verbose  = true
-merge    = emacs
+verbose = true
+merge   = Kaleidoscope
 
 [merge-tools]
-emacs.args = -q --eval "(ediff-merge-with-ancestor \"$local\" \"$other\" \"$base\" nil \"$output\")"
+Kaleidoscope.executable = /usr/local/bin/ksdiff
+Kaleidoscope.args = --merge --output $output --base $base -- $local $other
 
 [alias]
 nudge = push --rev .
@@ -12,6 +13,7 @@ nudge = push --rev .
 color      =
 convert    =
 crecord    = ~/.hgext/crecord/crecord
+extdiff    =
 graphlog   =
 hgflow     = ~/.hgext/hgflow/hgflow.py
 hgshelve   = ~/.hgext/hgshelve/hgshelve.py
@@ -20,3 +22,8 @@ mq         =
 rebase     =
 rebaseif   = ~/.hgext/ml-hgext/rebaseif.py
 transplant =
+
+[extdiff]
+cmd.ksdiff  = /usr/local/bin/ksdiff
+opts.ksdiff = --changeset --wait --filelist
+
