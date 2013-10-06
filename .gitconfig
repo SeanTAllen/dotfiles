@@ -13,19 +13,21 @@
   pretty = format:* %Cred%h%Creset - %s (%Cgreen%cr%Creset) <%an>
 
 [alias]
-  amend = commit --amend
-  ci    = commit
+  amend   = commit --amend
+  ci      = commit
   ci-snap = commit -a -m 'Back to snapshot.'
-  co    = checkout
-  di    = diff
-  div   = divergence
-  out   = outgoing
-  pom   = push origin master
-  st    = status
-  tags  = tag --list
-  wth   = what-the-hell-just-happened
-  lol   = log --graph --decorate --pretty=oneline --abbrev-commit
-  lola  = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  co      = checkout
+  di      = diff
+  div     = divergence
+  out     = outgoing
+  pom     = push origin master
+  ready   = rebase -i @{u}
+  st      = status
+  tags    = tag --list
+  wipe    = reset –hard HEAD
+  wth     = what-the-hell-just-happened
+  lol     = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola    = log --graph --decorate --pretty=oneline --abbrev-commit --all
 
 [push]
   default = simple
