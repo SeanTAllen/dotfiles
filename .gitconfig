@@ -19,6 +19,8 @@
   co      = checkout
   di      = diff
   div     = divergence
+  lol     = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola    = log --graph --decorate --pretty=oneline --abbrev-commit --all
   out     = outgoing
   pom     = push origin master
   ready   = rebase -i @{u}
@@ -26,8 +28,6 @@
   tags    = tag --list
   wipe    = reset –hard HEAD
   wth     = what-the-hell-just-happened
-  lol     = log --graph --decorate --pretty=oneline --abbrev-commit
-  lola    = log --graph --decorate --pretty=oneline --abbrev-commit --all
 
 [push]
   default = simple
