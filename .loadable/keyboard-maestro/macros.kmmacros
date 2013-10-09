@@ -623,22 +623,14 @@
 				<dict>
 					<key>BundleIdentifier</key>
 					<string>com.google.Chrome</string>
-					<key>Creator</key>
-					<integer>1919511898</integer>
-					<key>FileType</key>
-					<integer>1095782476</integer>
 					<key>Name</key>
 					<string>Google Chrome.app</string>
 					<key>NewFile</key>
-					<string>/usr/local/Cellar/google-chrome/stable-channel/Google Chrome.app</string>
+					<string>/opt/homebrew-cask/Caskroom/google-chrome/stable-channel/Google Chrome.app</string>
 				</dict>
 				<dict>
 					<key>BundleIdentifier</key>
 					<string>com.google.Chrome.canary</string>
-					<key>Creator</key>
-					<integer>1349087337</integer>
-					<key>FileType</key>
-					<integer>1095782476</integer>
 					<key>Name</key>
 					<string>Google Chrome Canary.app</string>
 				</dict>
@@ -706,22 +698,14 @@
 				<dict>
 					<key>BundleIdentifier</key>
 					<string>com.google.Chrome</string>
-					<key>Creator</key>
-					<integer>1919511898</integer>
-					<key>FileType</key>
-					<integer>1095782476</integer>
 					<key>Name</key>
 					<string>Google Chrome.app</string>
 					<key>NewFile</key>
-					<string>/usr/local/Cellar/google-chrome/stable-channel/Google Chrome.app</string>
+					<string>/opt/homebrew-cask/Caskroom/google-chrome/stable-channel/Google Chrome.app</string>
 				</dict>
 				<dict>
 					<key>BundleIdentifier</key>
 					<string>com.google.Chrome.canary</string>
-					<key>Creator</key>
-					<integer>1349087337</integer>
-					<key>FileType</key>
-					<integer>1095782476</integer>
 					<key>Name</key>
 					<string>Google Chrome Canary.app</string>
 				</dict>
@@ -789,22 +773,14 @@
 				<dict>
 					<key>BundleIdentifier</key>
 					<string>com.google.Chrome</string>
-					<key>Creator</key>
-					<integer>1919511898</integer>
-					<key>FileType</key>
-					<integer>1095782476</integer>
 					<key>Name</key>
 					<string>Google Chrome.app</string>
 					<key>NewFile</key>
-					<string>/usr/local/Cellar/google-chrome/stable-channel/Google Chrome.app</string>
+					<string>/opt/homebrew-cask/Caskroom/google-chrome/stable-channel/Google Chrome.app</string>
 				</dict>
 				<dict>
 					<key>BundleIdentifier</key>
 					<string>com.google.Chrome.canary</string>
-					<key>Creator</key>
-					<integer>1349087337</integer>
-					<key>FileType</key>
-					<integer>1095782476</integer>
 					<key>Name</key>
 					<string>Google Chrome Canary.app</string>
 				</dict>
@@ -841,7 +817,7 @@
 						<key>Modifiers</key>
 						<integer>2048</integer>
 						<key>QuickMacroUID</key>
-						<string>26763B30-DAEF-4B51-808B-827B5F442BDA</string>
+						<string>708FD663-4C9A-4BC6-8D0C-61D795E9C456</string>
 					</dict>
 				</array>
 				<key>IsActive</key>
@@ -930,270 +906,6 @@
 		<string>Global Macro Group</string>
 		<key>UID</key>
 		<string>DA8512F7-F323-46B1-8319-752E0495CFD0</string>
-	</dict>
-	<dict>
-		<key>Activate</key>
-		<string>Normal</string>
-		<key>IsActive</key>
-		<true/>
-		<key>Macros</key>
-		<array>
-			<dict>
-				<key>Actions</key>
-				<array>
-					<dict>
-						<key>AlreadyActivatedActionType</key>
-						<string>Normal</string>
-						<key>Application</key>
-						<dict>
-							<key>BundleIdentifier</key>
-							<string>com.echofon.Echofon</string>
-							<key>Creator</key>
-							<integer>1061109567</integer>
-							<key>FileType</key>
-							<integer>1095782476</integer>
-							<key>Name</key>
-							<string>Echofon.app</string>
-							<key>NewFile</key>
-							<string>/Applications/Echofon.app</string>
-						</dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>MacroActionType</key>
-						<string>ActivateApplication</string>
-						<key>ReopenWindows</key>
-						<false/>
-						<key>TimeOutAbortsMacro</key>
-						<true/>
-					</dict>
-				</array>
-				<key>IsActive</key>
-				<true/>
-				<key>Name</key>
-				<string>Switch to Echofon</string>
-				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>FireType</key>
-						<string>Pressed</string>
-						<key>KeyCode</key>
-						<integer>21</integer>
-						<key>MacroTriggerType</key>
-						<string>HotKey</string>
-						<key>Modifiers</key>
-						<integer>6912</integer>
-						<key>TriggerRepeat</key>
-						<false/>
-					</dict>
-				</array>
-				<key>UID</key>
-				<string>D75A7918-0FB1-42EF-9621-6E58BF7A8E66</string>
-			</dict>
-		</array>
-		<key>Name</key>
-		<string>Application Switchers</string>
-		<key>UID</key>
-		<string>D697A348-125A-46F2-8378-D0C07A282985</string>
-	</dict>
-	<dict>
-		<key>Activate</key>
-		<string>Normal</string>
-		<key>IsActive</key>
-		<true/>
-		<key>Macros</key>
-		<array>
-			<dict>
-				<key>Actions</key>
-				<array>
-					<dict>
-						<key>AlreadyActivatedActionType</key>
-						<string>Normal</string>
-						<key>Application</key>
-						<dict>
-							<key>BundleIdentifier</key>
-							<string>com.apple.finder</string>
-							<key>Creator</key>
-							<integer>1296122707</integer>
-							<key>FileType</key>
-							<integer>1179534418</integer>
-							<key>Name</key>
-							<string>Finder.app</string>
-							<key>NewFile</key>
-							<string>/System/Library/CoreServices/Finder.app</string>
-						</dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>MacroActionType</key>
-						<string>ActivateApplication</string>
-						<key>ReopenWindows</key>
-						<false/>
-						<key>TimeOutAbortsMacro</key>
-						<true/>
-					</dict>
-				</array>
-				<key>IsActive</key>
-				<true/>
-				<key>Name</key>
-				<string>Switch to Finder</string>
-				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>FireType</key>
-						<string>Pressed</string>
-						<key>KeyCode</key>
-						<integer>18</integer>
-						<key>MacroTriggerType</key>
-						<string>HotKey</string>
-						<key>Modifiers</key>
-						<integer>6912</integer>
-						<key>TriggerRepeat</key>
-						<false/>
-					</dict>
-				</array>
-				<key>UID</key>
-				<string>ECC43A7D-4228-484D-8F6B-C504971ACFDA</string>
-			</dict>
-		</array>
-		<key>Name</key>
-		<string>Application Switchers</string>
-		<key>UID</key>
-		<string>D697A348-125A-46F2-8378-D0C07A282985</string>
-	</dict>
-	<dict>
-		<key>Activate</key>
-		<string>Normal</string>
-		<key>IsActive</key>
-		<true/>
-		<key>Macros</key>
-		<array>
-			<dict>
-				<key>Actions</key>
-				<array>
-					<dict>
-						<key>AlreadyActivatedActionType</key>
-						<string>Normal</string>
-						<key>Application</key>
-						<dict>
-							<key>BundleIdentifier</key>
-							<string>com.google.Chrome</string>
-							<key>Creator</key>
-							<integer>1919511898</integer>
-							<key>FileType</key>
-							<integer>1095782476</integer>
-							<key>Name</key>
-							<string>Google Chrome.app</string>
-							<key>NewFile</key>
-							<string>/usr/local/Cellar/google-chrome/stable-channel/Google Chrome.app</string>
-						</dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>MacroActionType</key>
-						<string>ActivateApplication</string>
-						<key>ReopenWindows</key>
-						<false/>
-						<key>TimeOutAbortsMacro</key>
-						<true/>
-					</dict>
-				</array>
-				<key>IsActive</key>
-				<true/>
-				<key>Name</key>
-				<string>Switch to Google Chrome</string>
-				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>FireType</key>
-						<string>Pressed</string>
-						<key>KeyCode</key>
-						<integer>19</integer>
-						<key>MacroTriggerType</key>
-						<string>HotKey</string>
-						<key>Modifiers</key>
-						<integer>6912</integer>
-						<key>TriggerRepeat</key>
-						<false/>
-					</dict>
-				</array>
-				<key>UID</key>
-				<string>E1F24393-E430-468A-8778-8AF191E54A08</string>
-			</dict>
-		</array>
-		<key>Name</key>
-		<string>Application Switchers</string>
-		<key>UID</key>
-		<string>D697A348-125A-46F2-8378-D0C07A282985</string>
-	</dict>
-	<dict>
-		<key>Activate</key>
-		<string>Normal</string>
-		<key>IsActive</key>
-		<true/>
-		<key>Macros</key>
-		<array>
-			<dict>
-				<key>Actions</key>
-				<array>
-					<dict>
-						<key>AlreadyActivatedActionType</key>
-						<string>Normal</string>
-						<key>Application</key>
-						<dict>
-							<key>BundleIdentifier</key>
-							<string>com.googlecode.iterm2</string>
-							<key>Creator</key>
-							<integer>1230262861</integer>
-							<key>FileType</key>
-							<integer>1095782476</integer>
-							<key>Name</key>
-							<string>iTerm 2.app</string>
-							<key>NewFile</key>
-							<string>/usr/local/Cellar/iterm2/1.0.0.20120203/iTerm.app</string>
-						</dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>MacroActionType</key>
-						<string>ActivateApplication</string>
-						<key>ReopenWindows</key>
-						<false/>
-						<key>TimeOutAbortsMacro</key>
-						<true/>
-					</dict>
-				</array>
-				<key>IsActive</key>
-				<true/>
-				<key>Name</key>
-				<string>Switch to iTerm2</string>
-				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>FireType</key>
-						<string>Pressed</string>
-						<key>KeyCode</key>
-						<integer>20</integer>
-						<key>MacroTriggerType</key>
-						<string>HotKey</string>
-						<key>Modifiers</key>
-						<integer>6912</integer>
-						<key>TriggerRepeat</key>
-						<false/>
-					</dict>
-				</array>
-				<key>UID</key>
-				<string>54BFFEBD-666F-4222-B4FD-1FEF58F16C5E</string>
-			</dict>
-		</array>
-		<key>Name</key>
-		<string>Application Switchers</string>
-		<key>UID</key>
-		<string>D697A348-125A-46F2-8378-D0C07A282985</string>
 	</dict>
 	<dict>
 		<key>Activate</key>
@@ -1348,22 +1060,14 @@
 				<dict>
 					<key>BundleIdentifier</key>
 					<string>com.google.Chrome</string>
-					<key>Creator</key>
-					<integer>1919511898</integer>
-					<key>FileType</key>
-					<integer>1095782476</integer>
 					<key>Name</key>
 					<string>Google Chrome.app</string>
 					<key>NewFile</key>
-					<string>/usr/local/Cellar/google-chrome/stable-channel/Google Chrome.app</string>
+					<string>/opt/homebrew-cask/Caskroom/google-chrome/stable-channel/Google Chrome.app</string>
 				</dict>
 				<dict>
 					<key>BundleIdentifier</key>
 					<string>com.google.Chrome.canary</string>
-					<key>Creator</key>
-					<integer>1349087337</integer>
-					<key>FileType</key>
-					<integer>1095782476</integer>
 					<key>Name</key>
 					<string>Google Chrome Canary.app</string>
 				</dict>
@@ -1431,22 +1135,14 @@
 				<dict>
 					<key>BundleIdentifier</key>
 					<string>com.google.Chrome</string>
-					<key>Creator</key>
-					<integer>1919511898</integer>
-					<key>FileType</key>
-					<integer>1095782476</integer>
 					<key>Name</key>
 					<string>Google Chrome.app</string>
 					<key>NewFile</key>
-					<string>/usr/local/Cellar/google-chrome/stable-channel/Google Chrome.app</string>
+					<string>/opt/homebrew-cask/Caskroom/google-chrome/stable-channel/Google Chrome.app</string>
 				</dict>
 				<dict>
 					<key>BundleIdentifier</key>
 					<string>com.google.Chrome.canary</string>
-					<key>Creator</key>
-					<integer>1349087337</integer>
-					<key>FileType</key>
-					<integer>1095782476</integer>
 					<key>Name</key>
 					<string>Google Chrome Canary.app</string>
 				</dict>
