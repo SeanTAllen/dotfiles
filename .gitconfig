@@ -4,6 +4,7 @@
 
 [core]
   excludesfile = /Users/sean/.gitignore
+  pager        = /usr/local/opt/git/share/git-core/contrib/diff-highlight/diff-highlight
 
 [color]
   ui          = auto
