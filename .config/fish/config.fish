@@ -1,3 +1,5 @@
+function revert; git checkout .; end
+
 ###
 ### aliases
 ###
