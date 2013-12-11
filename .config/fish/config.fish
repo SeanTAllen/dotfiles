@@ -19,6 +19,7 @@ alias ..... 'cd ../../../..'
 alias work 'ssh sean@sallen'
 alias gw   'ssh -N sshgw'
 
+alias add      'git add'
 alias amend    'git amend'
 alias branches 'git branches'
 alias ci       'git ci'
