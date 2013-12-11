@@ -37,7 +37,7 @@ set -gx EDITOR 'vim'
 set -gx FINDBUGS_HOME /usr/local/Cellar/findbugs/2.0.1/libexec
 set -gx GITHUB_USER SeanTAllen
 set -gx HGUSER 'Sean T. Allen <sean@monkeysnatchbanana.com>'
-set -gx CDPATH $CDPATH . $HOME/code/
+set -gx CDPATH $CDPATH . $HOME/code/ $HOME/code/tlc
 set -gx JAVA_HOME /Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home
 set -gx MAVEN_OPTS '-Xms512m -Xmx1024m -XX:PermSize=128m -XX:MaxPermSize=128m -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5099 -Dcom.sun.management.jmxremote'
 set -gx IDEA_JDK /System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home
