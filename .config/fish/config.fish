@@ -23,8 +23,11 @@ alias add      'git add'
 alias amend    'git amend'
 alias branches 'git branches'
 alias ci       'git ci'
+alias co       'git co'
+alias di       'git diff'
 alias pom      'git pom'
 alias snap     'git snap'
+alias st       'git status'
 alias tags     'git tags'
 
 ###
