@@ -18,7 +18,6 @@
   amend    = commit --amend
   branches = branch --list
   ci       = commit
-  ci-snap  = commit -a -m 'Back to snapshot.'
   co       = checkout
   di       = diff
   div      = divergence
@@ -27,6 +26,7 @@
   out      = outgoing
   pom      = push origin master
   ready    = rebase -i @{u}
+  snap     = commit -a -m 'Back to snapshot.'
   st       = status
   tags     = tag --list
   wipe     = reset –hard HEAD
