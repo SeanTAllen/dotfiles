@@ -31,6 +31,7 @@ alias pull     'git pull'
 alias push     'git push'
 alias snap     'git snap'
 alias st       'git status'
+alias tag      'git tag'
 alias tags     'git tags'
 
 ###
