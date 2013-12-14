@@ -26,6 +26,7 @@
   out      = outgoing
   pom      = push origin master
   ready    = rebase -i @{u}
+  remotes  = remote -v
   snap     = commit -a -m 'Back to snapshot.'
   st       = status
   tags     = tag --list
