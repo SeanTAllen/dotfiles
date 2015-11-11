@@ -30,6 +30,7 @@
   snap     = commit -a -m 'Back to snapshot.'
   st       = status
   tags     = tag --list
+  track    = checkout -t
   wipe     = reset -–hard HEAD
   wth      = what-the-hell-just-happened
 
