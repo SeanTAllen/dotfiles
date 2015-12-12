@@ -30,7 +30,7 @@ values."
      git
      markdown
      osx
-     ;; org
+     org
      python
      (shell :variables
             shell-default-height 30
