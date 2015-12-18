@@ -58,3 +58,6 @@
 
 [merge]
   tool = Kaleidoscope
+
+[rebase]
+  autostash = true
