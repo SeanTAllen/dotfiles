@@ -15,24 +15,32 @@
   pretty = format:* %Cred%h%Creset - %s (%Cgreen%cr%Creset) <%an>
 
 [alias]
-  amend    = commit --amend
-  branches = branch --list
-  ci       = commit
-  co       = checkout
-  di       = diff
-  div      = divergence
-  lol      = log --graph --decorate --pretty=oneline --abbrev-commit
-  lola     = log --graph --decorate --pretty=oneline --abbrev-commit --all
-  out      = outgoing
-  pom      = push origin master
-  ready    = rebase -i @{u}
-  remotes  = remote -v
-  snap     = commit -a -m 'Back to snapshot.'
-  st       = status
-  tags     = tag --list
-  track    = checkout -t
-  wipe     = reset -–hard HEAD
-  wth      = what-the-hell-just-happened
+  amend     = commit --amend
+  ci        = commit
+  co        = checkout
+  di        = diff
+  div       = divergence
+  lol       = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola      = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  out       = outgoing
+  pom       = push origin master
+  ready     = rebase -i @{u}
+  remotes   = remote -v
+  snap      = commit -a -m 'Back to snapshot.'
+  st        = status
+  tags      = tag --list
+  track     = checkout -t
+  wipe      = reset -–hard HEAD
+  wth       = what-the-hell-just-happened
+  branches  = !legit branches
+	graft     = !legit graft
+	harvest   = !legit harvest
+	publish   = !legit publish
+	unpublish = !legit unpublish
+	sprout    = !legit sprout
+	sync      = !legit sync
+	switch    = !legit switch
+	resync    = !legit resync
 
 [push]
   default = simple
