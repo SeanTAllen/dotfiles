@@ -195,7 +195,6 @@ user code."
   (setq-default dotspacemacs-configuration-layers
                 '(auto-completion :variables
                                   auto-completion-enable-sort-by-usage t))
-  ;; dockerfile highlighting support
   ;; magit auto complete based on git repo directory
   (setq magit-repository-directories '("~/code/"))
   )
