@@ -195,6 +195,7 @@ user code."
   (setq-default dotspacemacs-configuration-layers
                 '(auto-completion :variables
                                   auto-completion-enable-sort-by-usage t))
+  ;; dockerfile highlighting support
   ;; magit auto complete based on git repo directory
   (setq magit-repository-directories '("~/code/"))
   )
@@ -211,6 +212,7 @@ layers configuration. You are free to put any user code."
    (lambda ()
      (set-variable 'indent-tabs-mode nil)
      (set-variable 'tab-width 2)))
+  (add-hook 'before-save-hook 'delete-trailing-whitespace)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
