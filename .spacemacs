@@ -32,6 +32,7 @@ values."
      markdown
      osx
      org
+     ponylang
      python
      (shell :variables
             shell-default-height 30
@@ -44,7 +45,7 @@ values."
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages then consider to create a layer, you can also put the
    ;; configuration in `dotspacemacs/config'.
-   dotspacemacs-additional-packages '(ponylang-mode)
+   dotspacemacs-additional-packages '()
    ;; A list of packages and/or extensions that will not be install and loaded.
    dotspacemacs-excluded-packages '()
    ;; If non-nil spacemacs will delete any orphan packages, i.e. packages that
@@ -207,12 +208,9 @@ layers configuration. You are free to put any user code."
   ;; enable company mode globally. not just in those modes that are
   ;; configured by spacemacs
   (global-company-mode)
-  (add-hook
-   'ponylang-mode-hook
-   (lambda ()
-     (set-variable 'indent-tabs-mode nil)
-     (set-variable 'tab-width 2)))
   (add-hook 'before-save-hook 'delete-trailing-whitespace)
+  (setq create-lockfiles nil)
+  (setq flycheck-check-syntax-automatically '(mode-enabled save))
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
