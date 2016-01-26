@@ -159,8 +159,8 @@ git_super_status() {
 # Set the prompt.
 RPROMPT='$(git_super_status)'
 
-ZSH_THEME_GIT_PROMPT_PREFIX="git:("
-ZSH_THEME_GIT_PROMPT_SUFFIX=")"
+ZSH_THEME_GIT_PROMPT_PREFIX="git:"
+ZSH_THEME_GIT_PROMPT_SUFFIX=""
 ZSH_THEME_GIT_PROMPT_SEPARATOR=" "
 ZSH_THEME_GIT_PROMPT_BRANCH="%{$fg[yellow]%}"
 ZSH_THEME_GIT_PROMPT_STAGED="%{$fg[yellow]%}%{✗%G%}"
