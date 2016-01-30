@@ -228,3 +228,31 @@ export PATH="$HOME/.rbenv/shims:$HOME/bin:/usr/local/share/python:/usr/local/bin
 export WORKON_HOME=~/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 
+###
+### Add fish style autosuggestions to zsh
+### Aka make zsh usable to this old fish shell addict
+###
+### Must be sourced at the end of .zshrc
+### zsh-syntax-highlighting.zsh wraps ZLE widgets. It must be sourced after
+### all custom widgets have been created
+### (i.e., after all zle -N calls and after running compinit). Widgets created
+### later will work, but will not update the syntax highlighting.
+###
+
+source ~/.zsh/zsh-syntax-highlighting/
+source ~/.zsh/zsh-autosuggestions/autosuggestions.zsh
+
+# Enable autosuggestions automatically.
+zle -N zle-line-init autosuggest-start
+
+# autosuggestions somehow breaks keybindings for history forward and back
+# me rn: ¯\_(ツ)_/¯
+bindkey '\e[A' history-beginning-search-backward
+bindkey '\e[B' history-beginning-search-forward
+
+# Allow right arrow to complete a suggestion. It's unbearable without it you
+# have to ctrl-e to accept. My brain still wants to do <TAB> though. Might
+# have to look at adjusting that some day.
+export AUTOSUGGESTION_ACCEPT_RIGHT_ARROW=1
+
+# TODO: figure out why augosuggest breaks switch completion for commands.
