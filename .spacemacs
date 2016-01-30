@@ -37,6 +37,7 @@ values."
      org
      ponylang
      python
+     ruby
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom)
@@ -48,7 +49,7 @@ values."
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages then consider to create a layer, you can also put the
    ;; configuration in `dotspacemacs/config'.
-   dotspacemacs-additional-packages '(writeroom-mode)
+   dotspacemacs-additional-packages '(writeroom-mode fill-column-indicator)
    ;; A list of packages and/or extensions that will not be install and loaded.
    dotspacemacs-excluded-packages '()
    ;; If non-nil spacemacs will delete any orphan packages, i.e. packages that
