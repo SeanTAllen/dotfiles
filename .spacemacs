@@ -259,12 +259,14 @@ layers configuration. You are free to put any user code."
   (add-hook 'before-save-hook 'delete-trailing-whitespace)
   (setq create-lockfiles nil)
   (setq flycheck-check-syntax-automatically '(mode-enabled save))
+  (spacemacs/add-to-hooks 'turn-on-fci-mode '(text-mode-hook))
   (with-eval-after-load 'org
     (setq org-agenda-files (quote ("~/Dropbox/SendenceToDo.org"))))
     (defun no-linum (&rest ignore)
        (when (or 'linum-mode global-linum-mode)
          (linum-mode 0)))
      (spacemacs/add-to-hooks 'no-linum '(org-mode-hook))
+     (spacemacs/add-to-hooks 'turn-off-fci-mode '(org-mode-hook))
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
