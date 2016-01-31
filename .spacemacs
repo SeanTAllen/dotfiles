@@ -262,8 +262,6 @@ layers configuration. You are free to put any user code."
   ;; enable company mode globally. not just in those modes that are
   ;; configured by spacemacs
   (global-company-mode)
-  ;; delete trailing whitespace on save
-  (add-hook 'before-save-hook 'delete-trailing-whitespace)
   (setq create-lockfiles nil)
   ;; set flycheck to run on mode being enabled and save
   (setq flycheck-check-syntax-automatically '(mode-enabled save))
