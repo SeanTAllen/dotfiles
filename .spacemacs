@@ -279,6 +279,9 @@ layers configuration. You are free to put any user code."
     (spacemacs/add-to-hooks 'turn-off-fci-mode '(org-mode-hook))
     ;; bind M-up and M-down to move text block or current line up and down
     (move-text-default-bindings)
+    ;; turn on golden-ratio window resizing
+    ;; see: https://github.com/roman/golden-ratio.el
+    (golden-ratio-mode 1)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
