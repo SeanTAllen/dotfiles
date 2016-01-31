@@ -267,6 +267,8 @@ layers configuration. You are free to put any user code."
          (linum-mode 0)))
      (spacemacs/add-to-hooks 'no-linum '(org-mode-hook))
      (spacemacs/add-to-hooks 'turn-off-fci-mode '(org-mode-hook))
+     ;; bind M-up and M-down to move text block or current line up and down
+     (move-text-default-bindings)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
