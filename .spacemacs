@@ -255,20 +255,25 @@ This function is called at the very end of Spacemacs initialization after
 layers configuration. You are free to put any user code."
   ;; enable company mode globally. not just in those modes that are
   ;; configured by spacemacs
-(global-company-mode)
+  (global-company-mode)
+  ;; delete trailing whitespace on save
   (add-hook 'before-save-hook 'delete-trailing-whitespace)
   (setq create-lockfiles nil)
+  ;; set flycheck to run on mode being enabled and save
   (setq flycheck-check-syntax-automatically '(mode-enabled save))
+  ;; turn fill column indicator on for all text modes
   (spacemacs/add-to-hooks 'turn-on-fci-mode '(text-mode-hook))
   (with-eval-after-load 'org
     (setq org-agenda-files (quote ("~/Dropbox/SendenceToDo.org"))))
+    ;; turn off line numbers in org-mode
     (defun no-linum (&rest ignore)
-       (when (or 'linum-mode global-linum-mode)
-         (linum-mode 0)))
-     (spacemacs/add-to-hooks 'no-linum '(org-mode-hook))
-     (spacemacs/add-to-hooks 'turn-off-fci-mode '(org-mode-hook))
-     ;; bind M-up and M-down to move text block or current line up and down
-     (move-text-default-bindings)
+      (when (or 'linum-mode global-linum-mode)
+        (linum-mode 0)))
+    (spacemacs/add-to-hooks 'no-linum '(org-mode-hook))
+    ;; turn off fill column indicator in org-mode
+    (spacemacs/add-to-hooks 'turn-off-fci-mode '(org-mode-hook))
+    ;; bind M-up and M-down to move text block or current line up and down
+    (move-text-default-bindings)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
