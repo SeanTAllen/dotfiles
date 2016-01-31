@@ -281,6 +281,8 @@ layers configuration. You are free to put any user code."
     ;; turn on golden-ratio window resizing
     ;; see: https://github.com/roman/golden-ratio.el
     (golden-ratio-mode 1)
+    ;; turn on flycheck everywhere we might have it
+    (global-flycheck-mode)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
