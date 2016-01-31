@@ -10,7 +10,7 @@ values."
    ;; Base distribution to use. This is a layer contained in the directory
    ;; `+distribution'. For now available distributions are `spacemacs-base'
    ;; or `spacemacs'. (default 'spacemacs)
-   dotspacemacs-distribution 'spacemacs-base
+   dotspacemacs-distribution 'spacemacs
    ;; List of additional paths where to look for configuration layers.
    ;; Paths must have a trailing slash (i.e. `~/.mycontribs/')
    dotspacemacs-configuration-layer-path '()
@@ -261,6 +261,10 @@ layers configuration. You are free to put any user code."
   (setq flycheck-check-syntax-automatically '(mode-enabled save))
   (with-eval-after-load 'org
     (setq org-agenda-files (quote ("~/Dropbox/SendenceToDo.org"))))
+    (defun no-linum (&rest ignore)
+       (when (or 'linum-mode global-linum-mode)
+         (linum-mode 0)))
+     (spacemacs/add-to-hooks 'no-linum '(org-mode-hook))
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
