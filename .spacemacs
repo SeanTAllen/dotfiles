@@ -56,7 +56,8 @@ values."
                                     indent-guide
                                     highlight-indentation
                                     google-translate
-                                    fancy-battery)
+                                    fancy-battery
+                                    evil-tutor)
    ;; If non-nil spacemacs will delete any orphan packages, i.e. packages that
    ;; are declared in a layer which is not a member of
    ;; the list `dotspacemacs-configuration-layers'. (default t)
