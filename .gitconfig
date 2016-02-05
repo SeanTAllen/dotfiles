@@ -30,7 +30,7 @@
   st        = status
   tags      = tag --list
   track     = checkout -t
-  wipe      = reset -–hard HEAD
+  wipe      = reset --hard HEAD
   wth       = what-the-hell-just-happened
   branches  = !legit branches
 	graft     = !legit graft
