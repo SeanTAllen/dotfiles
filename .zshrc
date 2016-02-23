@@ -242,7 +242,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 ###
 
 source ~/.zsh/zsh-syntax-highlighting/
-source ~/.zsh/zsh-autosuggestions/autosuggestions.zsh
+source ~/.zsh/zsh-autosuggestions/dist/autosuggestions.zsh
 
 # Enable autosuggestions automatically.
 zle -N zle-line-init autosuggest_start
