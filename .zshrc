@@ -78,6 +78,9 @@ source $ZSH/oh-my-zsh.sh
 
 export LSCOLORS=exfxcxdxbxegedabagacad
 
+# Turn off sharing history amongst zsh instances
+setopt no_share_history
+
 ###
 ### Prompt
 ###
