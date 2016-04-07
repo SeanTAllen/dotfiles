@@ -284,6 +284,8 @@ layers configuration. You are free to put any user code."
     (golden-ratio-mode 1)
     ;; turn on flycheck everywhere we might have it
     (global-flycheck-mode)
+    ;; wrap text in text mode
+    (add-hook 'text-mode-hook 'auto-fill-mode)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
