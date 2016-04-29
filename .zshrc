@@ -199,6 +199,7 @@ alias co='git co'
 alias di='git diff'
 alias fetch='git fetch'
 alias log='git log'
+alias merge='git merge'
 alias pom='git pom'
 alias pull='git pull'
 alias push='git push'
@@ -209,6 +210,7 @@ alias snap='git snap'
 alias st='git status'
 alias tag='git tag'
 alias tags='git tags'
+alias upstream='git upstream'
 
 ###
 ### environment variables
