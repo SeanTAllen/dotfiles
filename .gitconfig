@@ -30,6 +30,7 @@
   st        = status
   tags      = tag --list
   track     = checkout -t
+  upstream  = remote add upstream
   wipe      = reset --hard HEAD
   wth       = what-the-hell-just-happened
   branches  = !legit branches
