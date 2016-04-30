@@ -212,6 +212,8 @@ alias tag='git tag'
 alias tags='git tags'
 alias upstream='git upstream'
 
+alias e='emacsclient -n'
+
 ###
 ### environment variables
 ###
