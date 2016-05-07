@@ -286,6 +286,9 @@ layers configuration. You are free to put any user code."
     (global-flycheck-mode)
     ;; wrap text in text mode
     (add-hook 'text-mode-hook 'auto-fill-mode)
+    ;; add some awesome new text objects!
+    (spacemacs|define-text-object "[" "brackets" "[" "]")
+    (spacemacs|define-text-object "(" "parentheses" "(" ")")
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
