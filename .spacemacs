@@ -284,8 +284,13 @@ layers configuration. You are free to put any user code."
     (golden-ratio-mode 1)
     ;; turn on flycheck everywhere we might have it
     (global-flycheck-mode)
-    ;; wrap text in text mode
-    (add-hook 'text-mode-hook 'auto-fill-mode)
+    ;; soft wrap text in text mode
+    (add-hook 'text-mode-hook 'visual-fill-column-mode)
+    (add-hook 'text-mode-hook 'visual-line-mode)
+    (add-hook 'text-mode-hook 'spacemacs/toggle-fill-column-indicator-off)
+    (add-hook 'markdown-mode-hook 'visual-fill-column-mode)
+    (add-hook 'markdown-mode-hook 'visual-line-mode)
+    (add-hook 'markdown-mode-hook 'spacemacs/toggle-fill-column-indicator-off)
     ;; add some awesome new text objects!
     (spacemacs|define-text-object "[" "brackets" "[" "]")
     (spacemacs|define-text-object "(" "parentheses" "(" ")")
