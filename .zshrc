@@ -214,6 +214,8 @@ alias upstream='git upstream'
 
 alias e='emacsclient -n'
 
+alias mkidr=mkdir
+
 ###
 ### environment variables
 ###
