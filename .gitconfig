@@ -20,6 +20,7 @@
   co        = checkout
   di        = diff
   div       = divergence
+  diw       = diff -w
   lol       = log --graph --decorate --pretty=oneline --abbrev-commit
   lola      = log --graph --decorate --pretty=oneline --abbrev-commit --all
   out       = outgoing
