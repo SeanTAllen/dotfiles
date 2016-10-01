@@ -222,7 +222,7 @@ alias mkidr=mkdir
 ###
 
 export GITHUB_USER=SeanTAllen
-export CDPATH="$CDPATH:$HOME/code/:$HOME/code/sendence"
+export CDPATH="$CDPATH:$HOME/code/ponylang:$HOME/code/sendence:$CDPATH:$HOME/code/"
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home
 
 ###
