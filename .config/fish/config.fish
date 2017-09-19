@@ -43,13 +43,13 @@ set -gx EDITOR 'vim'
 set -gx FINDBUGS_HOME /usr/local/Cellar/findbugs/2.0.1/libexec
 set -gx GITHUB_USER SeanTAllen
 set -gx HGUSER 'Sean T. Allen <sean@monkeysnatchbanana.com>'
-set -gx CDPATH $CDPATH . $HOME/code/ $HOME/code/sendence
+set -gx CDPATH $CDPATH . $HOME/code/ $HOME/code/wallaroolabs
 set -gx JAVA_HOME /Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home
 set -gx MAVEN_OPTS '-Xms512m -Xmx1024m -XX:PermSize=512m -XX:MaxPermSize=512m -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5099 -Dcom.sun.management.jmxremote'
 set -gx IDEA_JDK /System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home
 
 ###
-### path 
+### path
 ###
 
 set -gx PATH $HOME/.rbenv/shims $HOME/bin /usr/local/share/python /usr/local/bin /bin /usr/bin /usr/local/sbin /sbin /usr/sbin /usr/X11R6/bin
@@ -72,7 +72,7 @@ set -gx __fish_git_prompt_color_suffix normal
 set -gx __fish_git_prompt_char_stagedstate '✗'
 set -gx __fish_git_prompt_char_untrackedfiles '?'
 set -gx __fish_git_prompt_char_dirtystate '+'
-set -gx __fish_git_prompt_char_upstream_equal 
+set -gx __fish_git_prompt_char_upstream_equal
 
 function fish_prompt
   printf '%s%s%s%s%s%s%s ' (set_color 'yellow') '➜  ' (set_color 'cyan') (cwd_name) (set_color normal) (__fish_git_prompt ' git:(%s)')
