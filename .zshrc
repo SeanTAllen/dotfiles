@@ -263,3 +263,7 @@ bindkey '\e[A' history-beginning-search-backward
 bindkey '\e[B' history-beginning-search-forward
 
 # TODO: figure out why augosuggest breaks switch completion for commands.
+
+export PATH=$HOME/code/wallaroolabs/wallaroo/machida/build:$PATH
+export PYTHONPATH=$HOME/code/wallaroolabs/wallaroo/machida:.:$PYTHONPATH
+export PATH=$PATH:/usr/local/go/bin
